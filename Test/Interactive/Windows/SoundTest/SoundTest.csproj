@@ -32,7 +32,7 @@
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\MonoGame\MonoGame.Framework\MonoGame.Framework.Windows.csproj">
+    <ProjectReference Include="..\..\..\..\MonoGame.Framework\MonoGame.Framework.Windows.csproj">
       <Project>{7DE47032-A904-4C29-BD22-2D235E8D91BA}</Project>
       <Name>MonoGame.Framework.Windows</Name>
     </ProjectReference>
@@ -44,37 +44,37 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\MacOS\SoundTest\SoundTest\Game1.cs">
+    <Compile Include="..\..\MacOS\SoundTest\Game1.cs">
       <Link>Game1.cs</Link>
     </Compile>
-    <Compile Include="..\..\MacOS\SoundTest\SoundTest\Program.cs">
+    <Compile Include="..\..\MacOS\SoundTest\Program.cs">
       <Link>Program.cs</Link>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\MacOS\SoundTest\SoundTest\Content\DepositingIntoVat_Loop.wav">
+    <None Include="..\..\MacOS\SoundTest\Content\DepositingIntoVat_Loop.wav">
       <Link>Content\DepositingIntoVat_Loop.wav</Link>
     </None>
-    <None Include="..\..\MacOS\SoundTest\SoundTest\Content\DepositingIntoVat_Loop.xnb">
+    <None Include="..\..\MacOS\SoundTest\Content\DepositingIntoVat_Loop.xnb">
       <Link>Content\DepositingIntoVat_Loop.xnb</Link>
     </None>
-    <None Include="..\..\MacOS\SoundTest\SoundTest\Content\FillingHoneyPot_Loop.wav">
+    <None Include="..\..\MacOS\SoundTest\Content\FillingHoneyPot_Loop.wav">
       <Link>Content\FillingHoneyPot_Loop.wav</Link>
     </None>
-    <None Include="..\..\MacOS\SoundTest\SoundTest\Content\FillingHoneyPot_Loop.xnb">
+    <None Include="..\..\MacOS\SoundTest\Content\FillingHoneyPot_Loop.xnb">
       <Link>Content\FillingHoneyPot_Loop.xnb</Link>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\..\MacOS\SoundTest\SoundTest\Content\ExplosionSound.xnb">
+    <Content Include="..\..\MacOS\SoundTest\Content\ExplosionSound.xnb">
       <Link>Content\ExplosionSound.xnb</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\MacOS\SoundTest\SoundTest\Content\laser1.wav">
+    <Content Include="..\..\MacOS\SoundTest\Content\laser1.wav">
       <Link>Content\laser1.wav</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\MacOS\SoundTest\SoundTest\Content\Explosion.xnb">
+    <Content Include="..\..\MacOS\SoundTest\Content\Explosion.xnb">
       <Link>Content\Explosion.xnb</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
